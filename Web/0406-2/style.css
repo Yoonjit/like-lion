@@ -1,0 +1,24 @@
+#yellow {
+    display: inline;
+    color: rgb(255, 196, 58);
+}
+
+#search {
+    display: flex;
+    background-color: rgb(205, 205, 205);
+    width: 370px; height: 40px;
+    align-items: center;
+    border-radius: 10px;
+    padding-left: 15px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+#search_icon {
+    width: 15px;
+    height: 15px;
+}
+
+body {
+    background-color: #FAF9FE;
+}
