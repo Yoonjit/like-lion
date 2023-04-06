@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'NeoDunggeunmoPro-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/NeoDunggeunmoPro-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KCCChassam';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCCChassam.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    color:blueviolet;
+    font-family: 'NeoDunggeunmoPro-Regular';
+}
+
+h2 {
+    font-family: 'KCCChassam';
+}
+
+a {
+    background-color: aquamarine;
+    color: #ffffff;
+    /* 위아래 10, 왼오른 10 */
+    padding: 10px 10px;
+    text-decoration: none;
+    font-family: 'NeoDunggeunmoPro-Regular';
+}
+
+div {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    border-style: solid;
+    border-color: blueviolet;
+    border-width: 10px;
+}
