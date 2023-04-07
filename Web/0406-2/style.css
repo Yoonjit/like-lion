@@ -12,6 +12,7 @@
     padding-left: 15px;
     margin-left: 20px;
     margin-top: 30px;
+    margin-bottom: 80px;
 }
 
 #search_icon {
@@ -19,6 +20,37 @@
     height: 15px;
 }
 
+#container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+    margin-top: 50px;
+}
+
+#box {
+    width: 200px; height: 200px;
+    background-color: rgb(205, 205, 205);
+    border-radius: 20px;  
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-right: 20px;
+}
+
+#icecream_icon {
+    width: 30px;
+    height: 30px;
+}
+
 body {
     background-color: #FAF9FE;
+}
+
+h1 {
+    text-indent: 20px;
+    line-height: 70%;
+}
+
+h5 {
+    text-indent: 15px;
+    padding-top: 2px;
 }
