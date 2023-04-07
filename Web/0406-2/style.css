@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'NeoDunggeunmoPro-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/NeoDunggeunmoPro-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 #yellow {
     display: inline;
     color: rgb(255, 196, 58);
@@ -13,6 +20,7 @@
     margin-left: 20px;
     margin-top: 30px;
     margin-bottom: 80px;
+    font-family: 'NeoDunggeunmoPro-Regular';
 }
 
 #search_icon {
@@ -23,7 +31,7 @@
 #container {
     display: flex;
     flex-direction: row;
-    margin-left: 5px;
+    margin-left: 20px;
     margin-top: 50px;
 }
 
@@ -31,14 +39,19 @@
     width: 200px; height: 200px;
     background-color: rgb(205, 205, 205);
     border-radius: 20px;  
-    padding-left: 20px;
+    padding-left: 15px;
     padding-top: 20px;
     margin-right: 20px;
+    font-family: 'NeoDunggeunmoPro-Regular';
 }
 
-#icecream_icon {
+.icecream_icon {
     width: 30px;
     height: 30px;
+}
+
+.p_content {
+    line-height: 30px;
 }
 
 body {
@@ -48,9 +61,10 @@ body {
 h1 {
     text-indent: 20px;
     line-height: 70%;
+    font-family: 'NeoDunggeunmoPro-Regular';
 }
 
-h5 {
+h4 {
     text-indent: 15px;
-    padding-top: 2px;
+    padding-top: 1px;
 }
