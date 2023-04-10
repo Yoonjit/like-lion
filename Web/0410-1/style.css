@@ -1,0 +1,88 @@
+#background { 
+    /* body 태그 */
+    background-color: #FAF9FE;
+    padding-left: 15px;
+}
+
+#MainTitleContainer {
+    /* 2단계 타이틀 컨테이너 (틀) */
+    display: flex;
+}
+
+.MainTitleFont {
+    font-size: 30px;
+}
+
+#OrangeText {
+    /* 주황 글씨  */
+    font-weight: 600;
+    color: orange;
+}
+
+.marginBottomZero {
+    /* 아래 margin(여백) 없애기! */
+    margin-bottom: 0;
+}
+
+.marginTopZero {
+    /* 위 margin(여백) 없애기! */
+    margin-top: 0px;
+}
+
+#inputContainer {
+    /* 검색 바 */
+    display: flex;
+    margin-top: 20px;
+    padding-left: 20px;
+    height: 56px;
+    width: 360px;
+    background-color: white;
+    border: 1px solid #e7e7e7;
+    border-radius: 12px;
+    align-items: center;
+}
+
+#input {
+    /* input 태그 */
+    border:none;
+    margin-left: 10px;
+}
+
+#input::placeholder {
+    color: #c4c4c4;
+}
+
+#searchIcon {
+    height: 20px;
+}
+
+#articleContainer {
+    /* 블록 컨테이너 (틀) */
+    display: flex;
+    margin-top: 20px;
+}
+
+.articleImg {
+    height: 20px;
+    width: 20px;
+}
+
+.articleTitle {
+    font-weight: 600;
+}
+
+.articleText {
+    /* 텍스트 투명도 주기! */
+    opacity: 0.5;
+}
+
+.article {
+    margin-right: 32px;
+    padding-top: 30px;
+}
+
+#centerArticle {
+    background-color: #FF5467;
+    padding: 30px 26px 32px 26px;
+    border-radius: 10px;
+}
