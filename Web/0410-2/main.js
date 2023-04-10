@@ -24,3 +24,7 @@ if (q === "짜장면") {
 } else {
     console.log("그런 거 안 팔아요.")
 }
+
+function button() {
+	console.log("버튼 클릭했다!!!")
+}
