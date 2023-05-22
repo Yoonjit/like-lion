@@ -1,7 +1,7 @@
 import Hello from "./Hello";
 
 function App() {
-  return <Hello/>;
+  return <Hello />;
 }
 
 export default App;
