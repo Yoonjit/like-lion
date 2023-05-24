@@ -43,7 +43,8 @@ import LoadingIcon from "./loading.svg";
 
 function App() {
   const darkMode = true;
-  const loading = true;
+  const loading = false;
+  const isPost = false;
   return (
     <>
       <ThemeProvider theme={darkTheme}>
@@ -81,14 +82,37 @@ function App() {
                 <LoadingDiv>
                   <LoadingImg src={LoadingIcon} />
                 </LoadingDiv>
+              ) : isPost ? (
+                <LoadingDiv>누가 아무나 글 좀 써주세요</LoadingDiv>
               ) : (
                 <ul>
                   <EachPostLi>
                     <div>
                       <FontAwesomeIcon icon={faLocationPin} />
-                      <PostLink>시사 N 대학기자상 취재</PostLink>
+                      <PostLink>학보, 시사N 대학기자상 취재</PostLink>
                     </div>
                     <PostRepl>[35]</PostRepl>
+                  </EachPostLi>
+                  <EachPostLi>
+                    <div>
+                      <FontAwesomeIcon icon={faLocationPin} />
+                      <PostLink>학보, 시사N 대학기자상 취재</PostLink>
+                    </div>
+                    <PostRepl>[12]</PostRepl>
+                  </EachPostLi>
+                  <EachPostLi>
+                    <div>
+                      <FontAwesomeIcon icon={faLocationPin} />
+                      <PostLink>학보, 시사N 대학기자상 취재</PostLink>
+                    </div>
+                    <PostRepl>[35]</PostRepl>
+                  </EachPostLi>
+                  <EachPostLi>
+                    <div>
+                      <FontAwesomeIcon icon={faLocationPin} />
+                      <PostLink>아무것도 안 하고 누워있고 싶다</PostLink>
+                    </div>
+                    <PostRepl>[99]</PostRepl>
                   </EachPostLi>
                 </ul>
               )}
