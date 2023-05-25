@@ -5,6 +5,20 @@ import { useState } from "react";
 function App() {
   const [num, setNumber] = useState(0);
 
+  const call = (handler) => {
+    handler();
+  };
+
+  call(() => console.log("함수 넣기"));
+
+  const hello = () => {
+    console.log("안녕하세요");
+  };
+
+  const bye = () => {
+    console.log("안녕히 가세요");
+  };
+
   const plus = () => {
     setNumber((prev) => prev + 1);
   };
